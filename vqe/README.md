@@ -1,0 +1,1 @@
+Variational quantum eigensolver with UCCSD (VQE) circuits from [QASMBench](https://github.com/pnnl/QASMBench). It looks like they sourced these from (ScaffCC)[https://github.com/epiqc/ScaffCC].
