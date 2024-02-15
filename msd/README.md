@@ -1,0 +1,2 @@
+This is the single level 15-to-1 magic state distillation circuit from the [Quirk](https://algassert.com/quirk) example circuit list.
+[gen_msd.py](gen_msd.py) is a script for fetching this circuit from Quirk and writing to a qasm file.
