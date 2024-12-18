@@ -1,3 +1,3 @@
-This directory contains two implementations of QRAM circuits. One is Flip-Flop Quantum RAM (FFQRAM) from https://arxiv.org/abs/1901.02362 and the other is Bucket Brigade QRAM.
+This directory contains an implementation of Bucket Brigade QRAM. Source: https://quantumcomputinguk.org/tutorials/implementing-qram-in-qiskit-with-code.
 
-[gen_ff_qram.py](gen_ff_qram.py) generates FFQRAM circuits and [gen_bb_qram.py](gen_bb_qram.py) generates a Bucket Brigade QRAM circuit.
+[gen_bb_qram.py](gen_bb_qram.py) generates a Bucket Brigade QRAM circuit.
