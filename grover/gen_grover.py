@@ -55,8 +55,8 @@ class Verifier:
         return True
 
 
-v = Verifier("pigeon3.cnf")
-oracle = PhaseOracle.from_dimacs_file("pigeon3.cnf")
+v = Verifier("pigeon2.cnf")
+oracle = PhaseOracle.from_dimacs_file("pigeon2.cnf")
 # Create a new problem from the phase oracle and the
 # verification function
 problem = AmplificationProblem(oracle=oracle, is_good_state=v.is_correct)
@@ -75,4 +75,4 @@ pm = PassManager(
     ]
 )
 compiled = pm.run(qc)
-qasm2.dump(compiled, "grover_pigeon3.qasm")
+qasm2.dump(compiled, "grover_pigeon2.qasm")
